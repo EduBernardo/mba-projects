@@ -1,0 +1,8 @@
+# Compiled files
+*.tfstate
+
+# Directories
+.terraform/
+
+# SSH Keys
+*.pem
