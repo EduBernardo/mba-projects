@@ -1,0 +1,34 @@
+.letter {
+    width: 400px;
+    border: solid 1px #000000;
+    margin: 40px auto;
+}
+
+.letter h1 {
+    border: solid 1px #990000;
+    background-color: #990000;
+    color: #fff;
+    width: 420px;
+    position: relative;
+    left: -10px;
+    text-align: center;
+}
+
+.letter h1::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: -10px;
+    border: solid 5px #000000;
+    border-color: transparent #7A0000 #7A0000 transparent
+
+}
+
+.letter p {
+    padding: 10px;
+}
+
+div.actions {
+    display: inline-block;
+    margin: 0px 10px 10px 10px;
+}
